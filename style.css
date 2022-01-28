@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+form {
+    background-color: darkblue;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#name, #email, textarea {
+    width: 100%;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}

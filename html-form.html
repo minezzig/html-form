@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Fill out my new form!</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name:</label> <br />
+        <input type="text" id="name" name="name" placeholder="Your name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label> <br />
+        <input
+          id="email"
+          name="email"
+          type="text"
+          placeholder="name@domain.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="message">Your message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Please provide a message"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+          <h3>Which is your favorite?</h3>
+          <div>
+              <input type="radio" name="favorite" id="html" value="html" />
+              <label for="favorite">HTML</label>
+          </div>
+          <div>
+              <input type="radio" name="favorite" id="css" value="css" />
+              <label for="css">CSS</label>
+          </div>
+          <div>
+              <input type="radio" name="favorite" id="javacsript" value="javascript" />
+              <label for="javasript">Javascript</label>
+          </div>
+      </div>
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
